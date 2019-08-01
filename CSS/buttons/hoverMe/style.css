@@ -11,10 +11,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0b0d10;
-  background: -webkit-radial-gradient(center, #0b0d10, #c6c7c8);
-  background: -moz-radial-gradient(center, #0b0d10, #c6c7c8);
-  background: radial-gradient(ellipse at center, #0b0d10, #c6c7c8);
+  background: #9d5973;
+  background: -webkit-radial-gradient(center, #9d5973, #5feaf3);
+  background: -moz-radial-gradient(center, #9d5973, #5feaf3);
+  background: radial-gradient(ellipse at center, #9d5973, #5feaf3);
 }
 
 button {

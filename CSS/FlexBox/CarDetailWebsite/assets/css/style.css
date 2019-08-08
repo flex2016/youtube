@@ -1,3 +1,5 @@
+/* General Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -44,9 +46,31 @@ section:not(.hero):nth-child(even) {
   background-color: #f5f5f5;
 }
 
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+hr {
+  width: 250px;
+  height: 3px;
+  background-color: #3f51b5;
+  border: 0;
+  margin-bottom: 50px;
+}
 section h3.title {
   text-transform: capitalize;
   font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section p {
+  max-width: 775px;
+  line-height: 2;
+  padding: 0 20px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -84,6 +108,8 @@ header nav li {
   margin: 0 15px;
 }
 
+/*Hero Styles*/
+
 .hero {
   justify-content: center;
   text-align: center;
@@ -99,8 +125,6 @@ header nav li {
   background-position: top;
   min-height: 100vh;
 }
-
-/*Hero Styles*/
 
 .hero h1 {
   font: bold 60px "Open Sans", sans-serif;
@@ -127,4 +151,96 @@ header nav li {
     opacity: 1;
     margin: 0;
   }
+}
+
+/* Work Section */
+
+.work .grid li {
+  height: 60vh;
+  padding: 20px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.work .grid li.small {
+  flex-basis: 30%;
+}
+
+.work .grid li.large {
+  flex-basis: 70%;
+}
+
+/* Services Section */
+
+.services .grid li {
+  padding: 50px;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.services .grid li i {
+  color: #3f51b5;
+}
+
+.services .grid li h4 {
+  font-size: 30px;
+  margin: 25px 0;
+}
+
+/*Testimonials Section*/
+
+.testimonials .quote {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 40px 0 25px;
+}
+
+/*Contact Section*/
+
+.contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.contact form .btn {
+  padding: 18px 42px;
+}
+
+.contact form input {
+  padding: 15px;
+  margin-right: 30px;
+  font-size: 18px;
+  color: #555;
+  flex: 1;
+}
+
+/*Footer Section*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3025c7;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-left: 16px;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.6;
+  align-self: center;
 }

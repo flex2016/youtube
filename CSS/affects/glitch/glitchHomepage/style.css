@@ -8,7 +8,7 @@
   --glitch-height: 100vh;
   --gap-horizontal: 10px;
   --gap-vertical: 5px;
-  --color-title: rgb(255, 255, 255);
+  --color-title: rgba(238, 11, 11, 0.1);
   --time-anim: 4s;
   --delay-anim: 2s;
   --blend-mode-1: none;
@@ -41,7 +41,8 @@
 }
 .content__title {
   font-size: 11vw;
-  margin: -55vh 0 0 0;
+  letter-spacing: 2rem;
+  margin: -65vh 0 0 0;
   font-family: sans-serif;
   color: var(--color-title);
   animation-name: glitch-anim-text;

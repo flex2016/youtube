@@ -8,7 +8,7 @@
   --glitch-height: 100vh;
   --gap-horizontal: 10px;
   --gap-vertical: 5px;
-  --color-title: rgba(238, 11, 11, 0.1);
+  --color-title: rgba(238, 11, 11, 0.2);
   --time-anim: 4s;
   --delay-anim: 2s;
   --blend-mode-1: none;
@@ -78,9 +78,6 @@
 
 .glitch__img:nth-child(n + 2) {
   opacity: 0;
-}
-
-.glitch__img:nth-child(n + 2) {
   animation-duration: var(--time-anim);
   animation-delay: var(--delay-anim);
   animation-timing-function: linear;

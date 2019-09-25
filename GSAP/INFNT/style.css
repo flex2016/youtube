@@ -32,7 +32,7 @@
 }
 .center-container {
   position: absolute;
-  top: 20vh;
+  top: 25vh;
   left: 15vw;
   height: 50vh;
   width: 40vw;
@@ -55,6 +55,9 @@
 }
 
 .story {
+  height: 40%;
+  width: 40%;
+
   margin-left: 20rem;
   z-index: 2;
 }
@@ -65,4 +68,10 @@
 
 .story p {
   font-size: 1.2rem;
+  padding-right: 6rem;
+}
+.story p:nth-child(3) {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
 }

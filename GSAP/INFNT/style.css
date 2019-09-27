@@ -25,10 +25,11 @@
 
 .right-container {
   position: relative;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   height: 100%;
   width: 70vw;
 }
+
 .center-container {
   position: absolute;
   top: 25vh;
@@ -53,6 +54,7 @@
   padding: 3rem;
   font-size: 1rem;
 }
+
 .info a {
   text-decoration: none;
   margin-left: 1rem;
@@ -64,8 +66,8 @@
   height: 40%;
   left: 30vw;
   top: 30vh;
-  z-index: 2;
 }
+
 .story h1 {
   font-size: 9rem;
   margin-bottom: 2rem;
@@ -78,6 +80,7 @@
   padding-right: 20rem;
   font-family: "Garamond";
 }
+
 .story p:nth-child(3) {
   margin-top: 5rem;
   font-size: 1.6rem;
@@ -87,38 +90,37 @@
 
 .menu-container {
   position: absolute;
-
   top: 3rem;
   right: 4rem;
   width: 50px;
   height: 45px;
 }
-
 .menu,
 .menu:after,
 .menu:before {
   width: 50px;
   height: 5px;
 }
+
 .menu {
   position: relative;
   transform: translateY(20px);
-  background: rgb(0, 0, 0);
+  background: black;
 }
+
 .menu:before {
   content: "";
   position: absolute;
   left: 0;
   bottom: 15px;
-  background: rgb(0, 0, 0);
+  background: black;
 }
-
 .menu:after {
   content: "";
   position: absolute;
   left: 0;
   top: 15px;
-  background: rgb(0, 0, 0);
+  background: black;
 }
 
 .social-container {
@@ -126,6 +128,7 @@
   bottom: 2rem;
   right: 2rem;
 }
+
 .social {
   display: flex;
 }
@@ -140,7 +143,7 @@
   position: absolute;
   width: 0%;
   height: 100vh;
-  background: #000000;
+  background: black;
   animation: go-left 4s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   left: 0;
 }

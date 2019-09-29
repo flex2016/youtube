@@ -16,7 +16,6 @@
 .slide-nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   position: absolute;
   top: calc(100vh - 45rem);
   left: 30vw;
